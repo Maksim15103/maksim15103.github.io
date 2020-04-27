@@ -1,0 +1,281 @@
+
+html{
+    background-color: black;
+}
+header img{
+    height: 103px;
+    width: 103px;
+}
+header li{
+    margin-left: 20px;
+    display: inline;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+A{
+    color: white;
+    text-decoration: none;
+}
+header ul {
+    left: 95px;
+    top: 18px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    height:40px;
+    width: 100%;   
+    background-color:blue;
+}
+/*#secondul{
+    left: 1070px;
+    top: 18px;
+    position: absolute;
+    padding: 0px;
+    margin-left: 0px;
+}*/
+.li2{
+    left: 830px;
+    top: 0px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+}
+.li22{ 
+    left: 910px;
+    top: 0px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+}
+.phone{
+    left: 520px;
+    top: 18px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+    color: yellow;
+    font-size: 18px;
+}
+.phone2{
+    left: 725px;
+    top: 18px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+    color: yellow;
+    font-size: 18px;
+}
+li :hover{
+    color: yellow;
+}
+#li2a{
+    left: 33px;
+    top: 45px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-size: 18px;
+}
+#li2b{
+    left: 633px;
+    top: 45px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-size: 18px;
+}
+#li2c{
+    left: 333px;
+    top: 45px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-size: 18px;
+}
+#a1a{
+    top: 130px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    left: 530px;
+    font-size: 26px;
+}
+#products{
+    top: 180px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    height: 180px;
+    width: 120px;
+}
+#products2{
+    left: 160px;
+    top: 180px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    height: 180px;
+    width: 120px;
+}
+#products3{
+    left: 320px;
+    top: 180px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    height: 180px;
+    width: 120px;
+}
+#products4{
+    left: 480px;
+    top: 180px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    height: 180px;
+    width: 120px;
+}
+#products5{
+    left: 640px;
+    top: 180px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    height: 180px;
+    width: 120px;
+}
+.pricew{
+    top: 370px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+}
+.price2w{
+    left:160px;
+    top: 370px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+}
+.price3w{
+    left:320px;
+    top: 370px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+}
+.price4w{
+    left:480px;
+    top: 370px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+}
+.price5w{
+    left:640px;
+    top: 370px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;}
+
+#a2a{
+    top: 420px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    left: 530px;
+    font-size: 26px;
+
+}
+#productm{
+    top: 470px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    height: 140px;
+    width: 200px;
+}
+#products2m{
+    left: 230px;
+    top: 470px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    height: 140px;
+    width: 200px;
+}#products3m{
+    left: 460px;
+    top: 470px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    height: 140px;
+    width: 200px;
+}#products4m{
+    left: 690px;
+    top: 470px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    height: 140px;
+    width: 200px;
+}
+/*#products5m{
+    left: 920px;
+    top: 470px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    height: 140px;
+    width: 200px;
+}*/
+#woman{
+    width: 100%;
+    height: 355px;
+}
+#man{
+    width: 100%;
+    height: 310px;
+}
+.pricem{
+    top: 610px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+}
+.price2m{
+    left: 230px;
+    top: 610px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+}
+.price3m{
+    left: 460px;
+    top: 610px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+}
+.price4m{
+    left: 690px;
+    top: 610px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+}
+/*.price5m{
+    left: 920px;
+    top: 610px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+}*/
