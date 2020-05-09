@@ -13,7 +13,7 @@ header{
     float: right;
 }
 #mainlog a{
-    color: gray;
+    color: rgb(170, 156, 156);
     text-decoration: none;
     margin-left: 50px;
 }
