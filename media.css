@@ -1,215 +1,54 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-header{
-    width: 100%;
-}
-@media (min-width: 1024px){
-    .phone{
-    left: 455px;
-    top: 18px;
-    position: absolute;
-    padding: 0px;
-    margin: 0px;
-    display: inline;
-    color: yellow;
-    font-size: 18px;}
-   
-    .phone2{
-    left: 625px;
-    top: 18px;
-    position: absolute;
-    padding: 0px;
-    margin: 0px;
-    display: inline;
-    color: yellow;
-    font-size: 18px;}
+@media (max-width: 1200px){
+    header{
+        margin-right: 5px;
+        margin-left: 5px;
     }
-    
-    .li2{
-    left: 700px;
-    top: 0px;
-    position: absolute;
+    .everythingsbad{
+        height: 200px;
+        width: 250px;
+    }
+    #freeplace{
+        margin-right: 10px;
+        margin-left: 10px;
+        height: 100px;
+    }
+    .content{
+        margin-left: 10px;
+        margin-right: 10px;
+}
+#recomend{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#modal{
+    width: 400px;
+}
+#modalO{ 
+    width: 520px;
+}
+}
+@media (max-width: 860px){
+    .about{
+        font-size: 25px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    #mainlog{
+       margin-top: 20px;
+    }
+    #freeplace{
+        margin-right: 5px;
+        margin-left: 5px;
+        height: 70px;
+}
+#mainlog a{
+    color: gray;
     text-decoration: none;
-    color: white;
+    margin-left: 20px;
+}}
+@media (max-width: 760px){
+    .about{
+        font-size: 27;
+    }
 }
-.li22{ 
-    left: 760px;
-    top: 0px;
-    position: absolute;
-    text-decoration: none;
-    color: white;
-}
-
-#a1a{
-    top: 130px;
-    position: absolute;
-    padding: 0px;
-    margin: 0px;
-    left: 400px;
-    font-size: 26px;
-}
-#a2a{
-    top: 420px;
-    position: absolute;
-    padding: 0px;
-    margin: 0px;
-    left: 400px;
-    font-size: 26px;
-}
-@media (min-width: 1280px){
-    
-    #li2c{
-        left: 453px;
-        top: 45px;
-        position: absolute;
-        padding: 0px;
-        margin: 0px;
-        color: white;
-        font-size: 18px;
-    }
-    #li2b{
-        left: 900px;
-        top: 45px;
-        position: absolute;
-        padding: 0px;
-        margin: 0px;
-        color: white;
-        font-size: 18px;}
-        .phone{
-        left: 550px;
-        top: 18px;
-        position: absolute;
-        padding: 0px;
-        margin: 0px;
-        display: inline;
-        color: yellow;
-        font-size: 18px;
-    }
-    .phone2{
-        left: 760px;
-        top: 18px;
-        position: absolute;
-        padding: 0px;
-        margin: 0px;
-        display: inline;
-        color: yellow;
-        font-size: 18px;}
-    body{
-        width: 1280px;
-    }
-    .li2{
-        left: 930px;
-        top: 0px;
-        position: absolute;
-        text-decoration: none;
-        color: white;}
-    .li22{ 
-        left: 1000px;
-        top: 0px;
-        position: absolute;
-        text-decoration: none;
-        color: white;}
-        }
-@media(min-width: 1366px){
-    html{
-        width: 1340px;
-    }
-    body{
-        width: 1340px;
-    }
-    .li2{
-        left: 1150px;
-        top: 0px;
-        position: absolute;
-        text-decoration: none;
-        color: white;}
-    .li22{ 
-        left: 1020px;
-        top: 0px;
-        position: absolute;
-        text-decoration: none;
-        color: white;}
-        
-        .phone{
-            left: 860px;
-            top: 18px;
-            position: absolute;
-            padding: 0px;
-            margin: 0px;
-            display: inline;
-            color: yellow;
-            font-size: 18px;
-        }
-        .phone2{
-            left: 605px;
-            top: 18px;
-            position: absolute;
-            padding: 0px;
-            margin: 0px;
-            display: inline;
-            color: yellow;
-            font-size: 18px;
-        }
-        #li2a{
-            left: 33px;
-            top: 45px;
-            position: absolute;
-            padding: 0px;
-            margin: 0px;
-            color: white;
-            font-size: 18px;
-        }
-        #li2c{
-            left: 353px;
-            top: 45px;
-            position: absolute;
-            padding: 0px;
-            margin: 0px;
-            color: white;
-            font-size: 18px;
-        }
-        #li2b{
-            left: 668px;
-            top: 45px;
-            position: absolute;
-            padding: 0px;
-            margin: 0px;
-            color: white;
-            font-size: 18px;
-        }}
-        @media(max-width: 1023px){
-            .phone{
-                left: 445px;
-                top: 18px;
-                position: absolute;
-                padding: 0px;
-                margin: 0px;
-                display: inline;
-                color: yellow;
-                font-size: 18px;
-            }
-            .phone2{
-                left: 610px;
-                top: 18px;
-                position: absolute;
-                padding: 0px;
-                margin: 0px;
-                display: inline;
-                color: yellow;
-                font-size: 18px;
-        }
-        .li2{
-            left: 680px;
-            top: 0px;
-            position: absolute;
-            text-decoration: none;
-            color: white;}
-        .li22{ 
-            left: 730px;
-            top: 0px;
-            position: absolute;
-            text-decoration: none;
-            color: white;}
-    }
-    

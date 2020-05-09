@@ -1,68 +1,88 @@
 <!Doctype html>
 <html lang="uk">
 <head>
-    <title>Stylelook</title>
+    <title>AlwaysBook</title>
     <link rel="stylesheet" type="text/css" href="Style.css">
     <link rel="stylesheet" type="text/css" href="media.css">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </head>
 <body>
     <header>
-    
-        <div id="header1">
-            <img alt="Logo" src="95f32b0e-cc44-454f-a478-a1b3d37591c7.jpg">
-            <ul>
-                <li ><a href="#">ГОЛОВНА </li>
-                <li ><a href="#">ПРО НАС</li>
-                <li ><a href="#">ПРАЙС ЛИСТ</li>
-            </ul>
-                <h6 class="phone">+38 (068) 623 00 26</h6>
-                <h6 class="phone2">+38 (069) 813 98 445 </h6>
-            <ul id="secondul">
-                <li class="li22"><a href="#"> РЕЄСТРАЦІЯ</li>
-                <li class="li2"><a href="#"> ВХІД</li>
-            </ul>
+    <div id="header">
+        <div id="logo">
+            <a href="#"><img src="4881ac25-b2ec-463d-8c57-7ca563d4ecd6.jpg" alt="Logo"></a>
         </div>
-<hr>
-        <div>
-            <ul id="ul2a">
-                <li id="li2a"><a href="#">ЖІНОЧЕ ВЗУТТЯ</li>
-                <li id="li2b"><a href="#">ЧОЛОВІЧЕ ВЗУТТЯ</li>
-                <li id="li2c"><a href="#">ДИТЯЧЕ ВЗУТТЯ</li>
-            </ul>
-        </div>
- </header>
- <div id="woman">
-     <a id="a1a">ЖІНОЧЕ ВЗУТТЯ</a>
-     <a data-fancybox="gallery" href="Жіноче взуття/images (1) - копия.jpg"><img id="products" src="Жіноче взуття/images (1).jpg"> 
-     <a class="pricew">249грн</a>
-     <a data-fancybox="gallery" href="Жіноче взуття/images (2) - копия.jpg"><img id="products2" src="Жіноче взуття/images (2).jpg">
-     <a class="price2w">249грн</a>
-     <a data-fancybox="gallery" href="Жіноче взуття/images - копия.jpg"> <img id="products3" src="Жіноче взуття/images.jpg">
-     <a class="price3w">249грн</a>
-     <a data-fancybox="gallery" href="Жіноче взуття/завантаження (6) - копия.jpg"><img id="products4" src="Жіноче взуття/завантаження (6).jpg">
-     <a class="price4w">249грн</a>
-     <a data-fancybox="gallery" href="Жіноче взуття/images (3) - копия.jpg"><img id="products5" src="Жіноче взуття/images (3).jpg">
-     <a class="price5w">249грн</a> 
-     
+        <div id="mainlog">
+            <!--Початок Входу-->
+            <div style="display: none;" id="modalO" class="">
+                <h2 id="registr">ВХІД</h2>
+                <p><b>Електрона Адреса:</b><br>
+                <p><input class="reg" type="text"></p>
+                <p><b>Пароль:</b><br>
+                <p><input class="reg" type="text"></p>
+                <p><input class="end" type="submit"></p>
+            </div>
+              <a data-fancybox="" data-src="#modalO" href="javascript:;">ВХІД</a>
+              <!--Кінець Входу-->
+              <!--Початок Реєстрації-->
+            <div style="display: none;" id="modal" class="">
+                <h2 id="registr">РЕЄСТРАЦІЯ</h2>
+                <p><b>Ваше Ім'я:</b><br>
+                <p><input class="reg" type="text"></p>
+                <p><b>Ваше Прізвище:</b><br>
+                <p><input class="reg" type="text"></p>
+                <p><b>Електрона Адреса:</b><br>
+                <p><input class="reg" type="text"></p>
+                <p><b>Стоворти Пароль:</b><br>
+                <p><input class="reg" type="text"></p>
+                <p><input class="end" type="submit"></p>
+            </div>
+              <a data-fancybox="" data-src="#modal" href="javascript:;">РЕЄСТРАЦІЯ</a>
+               <!--Кінець Реєстрації-->
     </div>
- <div id="man">
-    <a id="a2a">ЧОЛОВІЧЕ ВЗУТТЯ</a>
-    <a data-fancybox="gallery" href="Чоловіче взуття/завантаження (1) - копия.jpg"><img id="productm" src="Чоловіче взуття/завантаження (1).jpg">
-     <a class="pricem">249грн</a>
-     <a data-fancybox="gallery" href="Чоловіче взуття/завантаження (2) - копия.jpg"></a><img id="products2m" src="Чоловіче взуття/завантаження (2).jpg">
-     <a class="price2m">249грн</a>
-     <a data-fancybox="gallery" href="Чоловіче взуття/завантаження (3) - копия.jpg"></a><img id="products3m" src="Чоловіче взуття/завантаження (3).jpg">
-     <a class="price3m">249грн</a>
-     <a data-fancybox="gallery" href="Чоловіче взуття/завантаження (4) - копия.jpg"> <img id="products4m" src="Чоловіче взуття/завантаження (4).jpg">
-     <a class="price4m">249грн</a>
-    <!-- <a data-fancybox="gallery" href="Чоловіче взуття/завантаження - копия.jpg"> <img id="products5m" src="Чоловіче взуття/завантаження.jpg">
-     <a class="price5m">249грн</a> -->
-     <script src="js.js"></script>
+    </header>
+    <div id="freeplace"></div>
+    <div id="recomend">
+        <h1>Рекомендуемые книги</h1>
+    </div>
+<div class="content">
+    <p><h3>Все Хреново.Книга о надежде</h3></p>
+       <p> <a data-fancybox="gallery" href="Все хреново/images - копия.jpg"> <img class="everythingsbad" src="Все хреново/images.jpg">
+       </a>
+        <a data-fancybox="gallery" href="Все хреново/завантаження - копия.jpg"> <img class="everythingsbad" src="Все хреново/завантаження.jpg">
+        </a>
+        <a data-fancybox="gallery" href="Все хреново/images (1) - копия.jpg"> <img class="everythingsbad" src="Все хреново/images (1).jpg">
+        </a>
+        <a data-fancybox="gallery" href="Все хреново/завантаження (1) - копия.jpg"> <img class="everythingsbad" src="Все хреново/завантаження (1).jpg"> 
+        </a>
+    </p>
+    <div class="about">
+    <p>Никогда еще в человеческой истории мы не жили так хорошо: победили кучу болезней, получили доступ к мировым знаниям и окружили себя комфортом технологий. Однако чем лучше становится жизнь, тем больше мы тревожимся и переживаем. Живем с ощущением, что все хреново. Планета нагревается, экономическое неравенство зашкаливает, политики воруют и врут. Нашей неуверенностью в будущем, отчаянием и надеждой, что все будет нормально, умело пользуются все кому не лень — от маркетологов, впаривающих нам очередную ненужную хрень, до религиозных и политических деятелей. </p>
+    <p>Что же делать? Хватит надеяться на лучшее, говорит Марк Мэнсон, автор мирового бестселлера «Тонкое искусство пофигизма». В своей новой книге он рассказывает о кризисе надежды, о бесполезности веры в справедливый мир и о том, что качество нашей жизни определяется качеством нашей личности, а не тем, какими благами или невзгодами осыпает нас мир. </p>
+    <p>Опираясь на мудрость Ницше и Канта, Платона и Тома Уэйтса, автор поможет вам выработать трезвый взгляд на все, что вас окружает. Ведь куда ни глянь — везде действительно жопа. Так было и будет всегда. Пришло время перестать бегать от этой истины и научиться принимать жизнь как есть.</p>
+    </div>
+</div>
+<div class="content">
+    <p><h3>Тонкое скуство пофигизма. Парадоксальньій способ жить счаслво </h3></p>
+       <p> <a data-fancybox="gallery" href="Пофігізм/завантаження (2) - копия.jpg"> <img class="everythingsbad" src="Пофігізм/завантаження (2).jpg">
+       </a>
+        <a data-fancybox="gallery" href="Пофігізм/завантаження - копия.jpg"> <img class="everythingsbad" src="Пофігізм/завантаження.jpg">
+        </a>
+        <a data-fancybox="gallery" href="Пофігізм/images (2) - копия.jpg"> <img class="everythingsbad" src="Пофігізм/images (2).jpg">
+        </a>
+        <a data-fancybox="gallery" href="Пофігізм/завантаження (1) - копия.jpg"> <img class="everythingsbad" src="Пофігізм/завантаження (1).jpg"> 
+        </a>
+    </p>
+    <div class="about">
+    <p>Культ успеха в современном обществе превратился в культ карго: мы делаем всё для его восхваления, но какой от этого толк? Соцсети и множество сайтов наводнены история о однодолларовых стартапов, которые принесли миллионы и статьями в духе «12 советов для успеха от Стива Джобса». Кажется, будто даже друзья живут интереснее и насыщеннее, чем мы. Они путешествуют, покупают автомобили и квартиры, излучают позитив. Марк Мэнсон заметил, что такая зацикленность на позитиве и успехе не делает нас ни лучше, ни счастливее — она только напоминает о том, чего мы не достигли.</p>
+    <p>Поэтому он предлагает собственный ответ на вопрос: «Как стать счастливым?». Марк предлагает научиться тонкому искусству пофигизма. Определите то, что важно для вас, и забейте на всё второстепенное и на чужое мнение, которое будет сбивать вас с пути. Приготовьтесь взглянуть в лицо неудачам и оттянитесь по полной! Для этого в бестселлере на Amazon книге «Тонкое искусство пофигизма» рассказаны истории реальных людей, в том числе самого автора. Вы узнаете, как овладеть искусством пофигизма, почему неуверенность в себе — это нормально и почему лучше сделать что-нибудь, чем ничего.</p>
+    </div>
+</div>
+     <script src="Java.js"></script>
  </div>
 </body>
 </html>
